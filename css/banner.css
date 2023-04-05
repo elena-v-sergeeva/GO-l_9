@@ -1,0 +1,35 @@
+.banner {
+  padding: 146px 100px 100px;
+
+  min-height: 1069px;
+  position: relative;
+}
+
+.banner:after {
+  content: "";
+  display: block;
+  background-image: url(../img/player.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  bottom: 100px;
+  right: 131px;
+  width: 675px;
+  height: 762px;
+} 
+
+.title {
+  margin: 0;
+  font-weight: 900;
+  font-size: 150px;
+  line-height: 100%;
+  text-transform: uppercase;
+  letter-spacing: -0.1em;  
+}
+
+.title__text {
+  margin: 0;
+  padding-left: 100px;
+  font-size: 28px;
+  line-height: 1.78;
+}

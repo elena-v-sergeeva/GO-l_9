@@ -1,0 +1,98 @@
+.about {
+  padding: 0 100px 100px 100px;
+}
+
+.about__title {
+  margin-bottom: 50px;
+}
+
+.about__text {
+  margin: 0 0 25px;
+  font-size: 20px;
+  line-height: 1.4;;
+}
+
+.about__margin {
+  margin-bottom: 80px;
+}
+
+.blockquote {
+  margin: 0;
+  padding: 0;
+}
+
+.blockquote:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.blockquote__text {
+  margin: 0 0 40px;
+  padding: 0 40px 0 50px;
+  display: inline-block;
+  vertical-align: top;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 1.14;
+  white-space: pre-line;
+  position: relative;
+}
+
+.blockquote__text:before {
+  content: "“";
+  display: inline-block;
+  vertical-align: top;
+  color: #6C0287;
+  font-weight: 900;
+  font-size: 44px;
+  margin-right: 10px;
+  line-height: 1.25;
+  margin-top: -12px;
+  position: absolute;
+  top: 3px;
+  left: 0;
+}
+
+.blockquote__text:after {
+  content: '”';
+  color: #6C0287;
+  font-weight: 900;
+  font-size: 44px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.cite {
+  margin: 0;
+  max-width: 280px;
+  display: block;
+  float: right;
+  font-size: 20px;
+  font-style: normal;
+  line-height: 1.4;
+  padding-right: 20px;
+  position: relative;
+}
+
+.cite:before {
+  content: '';
+  display: block;
+  background-image: url("../img/boss.jpg");
+  background-position: 50% 20%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  right: 310px;
+} 
+
+
+
+
