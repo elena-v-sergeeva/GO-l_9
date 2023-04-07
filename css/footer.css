@@ -43,14 +43,14 @@
   font-size: 0;
 }
 
-.social__item {
+.footer__social-item {
   margin: 0;
   padding: 0;
   display: inline-block;
   margin-right: 22px;
 }
 
-.social__link {
+.footer__social-link {
   display: block;
   color: #fff;
 }

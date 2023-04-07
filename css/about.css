@@ -55,7 +55,7 @@
   line-height: 1.25;
 }
 
-.about__blockquote_author {
+.about__blockquote-author {
   margin: 0;
   padding: 0 0 0 110px;
   max-width: 390px;
@@ -67,7 +67,7 @@
   position: relative;
 }
 
-.about__blockquote_author:before {
+.about__blockquote-author:before {
   content: '';
   background-image: url("../img/boss.jpg");
   background-position: 50% 20%;
