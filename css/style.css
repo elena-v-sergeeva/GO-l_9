@@ -11,16 +11,13 @@ html {
 
 body {
   min-width: 320px;
-  max-width: 1440px;
   min-height: 100vh;
-  margin: 0 auto;
   font-family: Arial, sans-serif;
   background-color: #1B1A1B;;
   color: #FFFFFF;
 }
 
 .container {
-  background-color: #1B1A1B;
   max-width: 1240px;
   margin: 0 auto;
   padding: 0 30px;
@@ -77,8 +74,19 @@ iframe {
 в итоге 1240px
 Чтобы контент не прижимался к краям экрана
 */
+.section {
+  padding: 50px 0;
+}
 
-.title__two {
+.section:first-child {
+  padding-top: 146px;
+} 
+
+.section:last-child {
+  padding-bottom: 51px;
+} 
+
+.title {
   margin: 0;
   font-weight: 700;
   font-size: 40px;

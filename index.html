@@ -14,16 +14,16 @@
 </head>
 <body>
   <main>
-    <section class="banner">
-      <div class="container">
-        <h1 class="title">GAME OVER</h1>
-        <p class="title__text">Новый формат игр и отдыха</p>
+    <section class="section banner">
+      <div class="container banner__container">
+        <h1 class="banner__title">GAME OVER</h1>
+        <p class="banner__text">Новый формат игр и отдыха</p>
       </div>
     </section>
 
-    <section class="halls">
+    <section class="section halls">
       <div class="container">
-        <h2 class="halls__title title__two" id="halls">Наши залы</h2>
+        <h2 class="halls__title title" id="halls">Наши залы</h2>
         <ol class="halls__list">
           <li class="halls__item halls__vibes">
             <a class="halls__link" href="vibes.html" target="_blank" lang="en">80’s vibes</a>
@@ -41,9 +41,9 @@
       </div>
     </section>
 
-    <section class="booking">
+    <section class="section booking">
       <div class="container">
-        <h2 class="booking__title title__two">забронировать</h2>
+        <h2 class="booking__title title">забронировать</h2>
 
         <form class="booking__form" action="https://jsonplaceholder.typicode.com/posts" method="post">
           <fieldset>
@@ -159,25 +159,24 @@
       </div>
     </section>
 
-    <section class="about">
+    <section class="section about">
       <div class="container">
-        <h2 class="about__title title__two">О нас</h2>
+        <h2 class="about__title title">О нас</h2>
         <p class="about__text">Для наших гостей мы создали концептуально новое игровое пространство виртуальной реальности в центральной части города.</p>
         <p class="about__text about__margin">Каждый день мы стараемся создавать для вас самую лучшую игровую атмосферу и радовать Вас топовыми игровыми разработками со всего мира.</p>
 
-        <blockquote class="blockquote">
-          <p class="blockquote__text">GAME OVER &mdash;
-            это место незабываемых впечатлений
-          </p>
+        <blockquote class="about__blockquote">
+          <p class="about__blockquote_text">GAME OVER &mdash;
+            это место незабываемых впечатлений</p>
 
-          <cite class="cite">Аркадий Абашкин, создатель игровой территории GAME OVER</cite>
+          <p class="about__blockquote_author">Аркадий Абашкин, создатель игровой территории GAME OVER</p>
         </blockquote>
       </div>
     </section>
 
-    <section class="faq">
+    <section class="section faq">
       <div class="container">
-        <h2 class="faq__title title__two">Частые вопросы</h2>
+        <h2 class="faq__title title">Частые вопросы</h2>
 
         <ul class="question__list">
           <li class="question__item">
@@ -200,19 +199,17 @@
     </section>
   </main>
 
-  <footer class="footer">
+  <footer class="section footer">
     <div class="container">
-      <h2 class="footer__title title__two" id="contacts">Контакты</h2>
-      <address class="address">
-        <p class="contacts__address contacts__text">г. Москва
-ул. Аквамарина, 16
-        </p>
+      <h2 class="footer__title title" id="contacts">Контакты</h2>
+      <address class="footer__address">
+        <p class="footer__text address">г. Москва ул. Аквамарина, 16</p>
 
-        <p class="contacts__tel contacts__text"><a class="contacts__list_link" href="tel:89509302893">8 (950) 930 - 28 - 93</a></p>
-        <p class="contacts__mail contacts__text"><a class="contacts__list_link" href="mailto:GameOver@gmail.com">GameOver@gmail.com</a></p>
+        <a class="footer__text tel" href="tel:89509302893">8 (950) 930 - 28 - 93</a>  
+        <a class="footer__text mail" href="mailto:GameOver@gmail.com">GameOver@gmail.com</a> 
       </address>
 
-      <ul class="social">
+      <ul class="footer__social">
         <li class="social__item">
           <a class="social__link" href="https://vk.com/" target="_blank" lang="en">
             <svg width="50" height="50" viewBox="0 0 48 48" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
