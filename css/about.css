@@ -8,7 +8,7 @@
   line-height: 1.4;
 }
 
-.about__margin {
+.about__title-text {
   margin-bottom: 80px;
 }
 
@@ -23,7 +23,7 @@
   display: table;
 }
 
-.about__blockquote_text {
+.about__blockquote-text {
   margin: 0 0 40px;
   padding: 0 0 0 50px;
   display: inline-block;
@@ -36,7 +36,7 @@
   position: relative;
 }
 
-.about__blockquote_text:before {
+.about__blockquote-text:before {
   content: "“";
   vertical-align: top;
   color: #6C0287;
@@ -48,7 +48,7 @@
   left: 0;
 }
 
-.about__blockquote_text:after {
+.about__blockquote-text:after {
   content: ' ”';
   color: #6C0287;
   font-weight: 900;

@@ -25,16 +25,16 @@
       <div class="container">
         <h2 class="halls__title title" id="halls">Наши залы</h2>
         <ol class="halls__list">
-          <li class="halls__item halls__vibes">
+          <li class="halls__item halls__item_style_vibes">
             <a class="halls__link" href="vibes.html" target="_blank" lang="en">80’s vibes</a>
           </li>
-          <li class="halls__item halls__starwars">
+          <li class="halls__item halls__item_style_starwars">
             <a class="halls__link" href="starwars.html" target="_blank" lang="en">Star wars</a>
           </li>
-          <li class="halls__item halls__wildwest">
+          <li class="halls__item halls__item_style_wildwest">
             <a class="halls__link" href="wildwest.html" target="_blank" lang="en">Wild west</a>
           </li>
-          <li class="halls__item halls__neon">
+          <li class="halls__item halls__item_style_neon">
             <a class="halls__link" href="neon.html" target="_blank" lang="en">Neon style</a>
           </li>
         </ol>
@@ -47,17 +47,25 @@
 
         <form class="booking__form" action="https://jsonplaceholder.typicode.com/posts" method="post">
           <fieldset>
-            <label for="vibes"></label>
-            <input id="vibes" type="button" name="halls" value="80-s-vibes" lang="en" >
+            <label for="vibes">
+              <input id="vibes" type="radio" name="halls" value="80-s-vibes" lang="en" >
+              80’s vibes
+            </label>
+
+            <label for="star-wars">
+              <input id="star-wars" type="radio" name="halls" value="star-wars" lang="en">
+              star wars
+            </label>
             
-            <label for="star-wars"></label>
-            <input id="star-wars" type="button" name="halls" value="star-wars" lang="en">
-              
-            <label for="wild-west"></label>
-            <input id="wild-west" type="button" name="halls" value="wild-west" lang="en">
-          
-            <label for="neon-style"></label>
-            <input id="neon-style" type="button" name="halls" value="neon-style" lang="en">
+            <label for="wild-west">
+              <input id="wild-west" type="radio" name="halls" value="wild-west" lang="en">
+              wild west
+            </label>
+
+            <label for="neon-style">
+              <input id="neon-style" type="radio" name="halls" value="neon-style" lang="en">
+              neon style
+            </label>
           </fieldset>
       
           <fieldset>
@@ -162,8 +170,11 @@
     <section class="section about">
       <div class="container">
         <h2 class="about__title title">О нас</h2>
-        <p class="about__text">Для наших гостей мы создали концептуально новое игровое пространство виртуальной реальности в центральной части города.</p>
-        <p class="about__text about__margin">Каждый день мы стараемся создавать для вас самую лучшую игровую атмосферу и радовать Вас топовыми игровыми разработками со всего мира.</p>
+
+        <div class="about__title-text">
+          <p class="about__text">Для наших гостей мы создали концептуально новое игровое пространство виртуальной реальности в центральной части города.</p>
+          <p class="about__text">Каждый день мы стараемся создавать для вас самую лучшую игровую атмосферу и радовать Вас топовыми игровыми разработками со всего мира.</p>
+        </div>
 
         <blockquote class="about__blockquote">
           <p class="about__blockquote-text">GAME OVER &mdash;
@@ -203,10 +214,10 @@
     <div class="container">
       <h2 class="footer__title title" id="contacts">Контакты</h2>
       <address class="footer__address">
-        <p class="footer__text address">г. Москва ул. Аквамарина, 16</p>
+        <p class="footer__item footer__item_type_address">г. Москва ул. Аквамарина, 16</p>
 
-        <a class="footer__text tel" href="tel:89509302893">8 (950) 930 - 28 - 93</a>  
-        <a class="footer__text mail" href="mailto:GameOver@gmail.com">GameOver@gmail.com</a> 
+        <a class="footer__item footer__item_type_tel" href="tel:89509302893">8 (950) 930 - 28 - 93</a>  
+        <a class="footer__item footer__item_type_mail" href="mailto:GameOver@gmail.com">GameOver@gmail.com</a> 
       </address>
 
       <ul class="footer__social">

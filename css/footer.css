@@ -2,7 +2,7 @@
   margin-bottom: 60px;
 }
 
-.footer__text {
+.footer__item {
   padding-left: 60px;
   display: block;
   font-weight: 700;
@@ -20,19 +20,19 @@
   padding: 0;
 }
 
-.address {
-  margin: 0 0 40px;
+.footer__item_type_address {
   background-image: url(../img/location.svg);
+  margin: 0 0 40px;
   max-width: 300px;
 
 }
 
-.tel {
-  margin-bottom: 11px;
+.footer__item_type_tel {
   background-image: url(../img/phone.svg);
+  margin-bottom: 11px;
 }
 
-.mail {
+.footer__item_type_mail {
   background-image: url(../img/mail.svg);
 }
 
