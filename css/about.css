@@ -3,13 +3,13 @@
 }
 
 .about__text {
+  margin-bottom: 80px;
+}
+
+.about__text-paragraph {
   margin: 0 0 25px;
   font-size: 20px;
   line-height: 1.4;
-}
-
-.about__title-text {
-  margin-bottom: 80px;
 }
 
 .about__blockquote {
